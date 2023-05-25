@@ -5,7 +5,7 @@ import { MainPage } from '../pages/MainPage/MainPage';
 export const useRoutes = () => {
   return (
     <Routes>
-      <Route path="/"></Route>
+      <Route path="/" element={<MainPage />}></Route>
     </Routes>
   );
 };

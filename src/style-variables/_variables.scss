@@ -1,3 +1,10 @@
+// sizes
+$width-container: 1280px;
+$large-laptop-width: 1000px;
+$tablet-width: 768px;
+$mobile-big-width: 420px;
+$mobile-small-width: 320px;
+
 // mixins
 // media-devices
 @mixin media-large-laptop {
@@ -172,12 +179,5 @@
     height: 5px;
     background-color: $accents-theme-color;
     border-radius: 5px;
-  }
-
-  @mixin font($size, $height: $size, $weight: normal, $style: normal) {
-    font-size: $size;
-    line-height: $height;
-    font-weight: $weight;
-    font-style: $style;
   }
 }
