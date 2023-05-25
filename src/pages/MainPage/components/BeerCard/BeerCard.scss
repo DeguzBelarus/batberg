@@ -95,4 +95,16 @@
       margin-top: auto;
     }
   }
+
+  @include media-tablet {
+    width: 95vw;
+  }
+
+  @include media-mobile-big {
+    width: 98vw;
+  }
+
+  @include media-mobile-small {
+    width: 99vw;
+  }
 }
