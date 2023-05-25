@@ -22,5 +22,6 @@
     width: 100% !important;
     @include flex-column-line-center-vertical-top;
     gap: 10px;
+    padding-bottom: 5px;
   }
 }
