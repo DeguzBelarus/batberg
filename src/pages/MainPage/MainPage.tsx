@@ -7,7 +7,7 @@ export const MainPage: FC = () => {
   return (
     <div className="main-page-wrapper">
       <div className="logo-wrapper">
-        <img src={batBergLogo} alt="barrel with beer and a bat label" />
+        <img draggable={false} src={batBergLogo} alt="barrel with beer and a bat label" />
       </div>
     </div>
   );
