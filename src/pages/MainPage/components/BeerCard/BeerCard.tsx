@@ -30,7 +30,7 @@ export const BeerCard: FC<Props> = ({
         <p className="heading-paragraph" style={{ color: `#${headingColors[id]}` }}>
           {heading}
         </p>
-        <p className="subheading-paragraph">{subheading || ''}</p>
+        <p className="subheading-paragraph">{subheading || 'ф'}</p>
         <p className="title-paragraph">Brewed by Batberg</p>
       </div>
     </div>

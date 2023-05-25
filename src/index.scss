@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Cinzel Decorative';
+  font-weight: normal, bold;
+  src: url('./assets/fonts/CinzelDecorative-Regular.ttf'),
+    url('./assets/fonts/CinzelDecorative-Bold.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;

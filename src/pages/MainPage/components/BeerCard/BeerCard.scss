@@ -10,7 +10,7 @@
 
   .upper-container {
     width: 100%;
-    height: 65%;
+    height: 62%;
     @include flex-line-spacebetween-vertical-center;
     gap: 5px;
 
@@ -48,6 +48,7 @@
       gap: 5px;
 
       h1 {
+        font-family: 'Cinzel Decorative';
         color: $main-theme-color;
       }
 
@@ -58,23 +59,26 @@
         padding: 4px;
         box-shadow: 0px 0px 5px #ddd;
         border-radius: 10px;
+        background-color: #eee;
       }
     }
   }
 
   .info-container {
     width: 100%;
-    height: 35%;
+    height: 38%;
     @include flex-column-line-center-vertical-top;
     gap: 5px;
     padding-top: 5px;
 
     .heading-paragraph {
+      font-family: 'Cinzel Decorative';
       font-size: 20px;
       font-weight: bold;
     }
 
     .subheading-paragraph {
+      font-family: 'Cinzel Decorative';
       font-weight: bold;
     }
 
