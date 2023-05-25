@@ -4,12 +4,13 @@
   width: 100%;
   height: 100vh;
   @include flex-column-line-start-vertical-top;
+  padding-bottom: 10px;
   overflow: auto;
   @include scroll;
 
   .logo-wrapper {
     width: 100%;
-    height: 300px;
+    height: 280px;
     @include flex-all-center;
 
     img {
@@ -23,5 +24,11 @@
     @include flex-column-line-center-vertical-top;
     gap: 10px;
     padding-bottom: 5px;
+  }
+}
+
+@media print {
+  .main-page-wrapper {
+    overflow: hidden;
   }
 }
