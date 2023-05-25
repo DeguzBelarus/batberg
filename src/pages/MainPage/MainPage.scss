@@ -7,6 +7,7 @@
   padding-bottom: 10px;
   overflow: auto;
   @include scroll;
+  background-image: linear-gradient(to right, #fff, $main-theme-color);
 
   .logo-wrapper {
     width: 100%;

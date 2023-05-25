@@ -5,8 +5,9 @@
   height: 237px;
   @include flex-column-line-start-vertical-top;
   padding: 5px;
-  box-shadow: 0px 0px 5px #aaa;
+  box-shadow: 0px 0px 8px 2px #999;
   border-radius: 20px;
+  background-color: #fff;
 
   .upper-container {
     width: 100%;
@@ -35,7 +36,7 @@
           1px 1px 1px grey,
           -1px -1px 1px grey,
           1px -1px 1px grey,
-          -1px 1px 1px grey, ;
+          -1px 1px 1px grey;
         color: #fff;
         z-index: 1;
       }
@@ -50,12 +51,18 @@
       h1 {
         font-family: 'Cinzel Decorative';
         color: $main-theme-color;
+        text-shadow:
+          1px 1px 1px grey,
+          -1px -1px 1px grey,
+          1px -1px 1px grey,
+          -1px 1px 1px grey;
       }
 
       p {
         width: 80%;
+        font-family: Arial, Helvetica, sans-serif;
         text-align: center;
-        font-size: 15px;
+        font-size: 14px;
         padding: 4px;
         box-shadow: 0px 0px 5px #ddd;
         border-radius: 10px;
