@@ -42,9 +42,9 @@ export const beerData: Array<IBeerData> = [
       'Американский лагер. Классический немецкий ржаной лагер. Сварен с использованием ржаного ферментированного солода.',
   },
   {
-    name: 'Rye lager',
+    name: 'Roggen lager',
     heading: 'ROGGEN',
-    subheading: 'BEER',
+    subheading: 'LAGER',
     alc: 5.5,
     amount: 1,
     density: 15.0,
